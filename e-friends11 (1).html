@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  
+  <title>E-Friends</title>
+
+  <style>
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+    
+  body {
+    text-align: center;
+      color: black;
+      font-family: helvetica;
+      margin: 0 auto;
+      background:rgb(223, 188, 147)
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: rgb(172, 120, 62);
+      color: rgb(219, 179, 133);
+    }
+  img {
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+
+<body>
+  <img src="lo3.png" alt="centered image" class="center">
+  <h1>E-Friends</h1>
+  <p>When you need someone to talk to...
+</p>
+<p>Feel free to fill the form to contact us!</p>
+<form action="https://formsubmit.co/efriends1024@gmail.com" method="POST">
+  
+  <input type="hidden" name="_subject" value="New Message from Efriends!">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <input type="text" name="message" placeholder="Message" required>
+  <input type="hidden" name="_captcha" value="false">
+  <button type="submit">Submit</button>
+</form>
+  <p> This is a safe place, your identity and personal informations will remain private</p>
+</form>
+
+</body>
+</html>
